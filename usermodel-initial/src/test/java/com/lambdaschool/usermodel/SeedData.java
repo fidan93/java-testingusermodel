@@ -23,7 +23,6 @@ import java.util.Locale;
  * CoomandLineRunner: Spring Boot automatically runs the run method once and only once
  * after the application context has been loaded.
  */
-
 @Transactional
 @ConditionalOnProperty(
     prefix = "command.line.runner",
